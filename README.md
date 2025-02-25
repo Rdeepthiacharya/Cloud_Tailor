@@ -1,44 +1,49 @@
-# Project Title
+# Project Description
 
-The website allows users to browse and purchase women's clothing items, as well as customize products. Users can create an account, change password, add items to their cart, and securely checkout and also give order for customized products. 
-It also have a email feature so once the order is placed the customers will get mail regarding name of products its price and so no.
+This website allows users to browse and purchase women's clothing items and customize products. Users can create an account, reset their password, add items to their cart, securely check out, and place orders for customized products.
 
-The backend of the application manages user accounts, product inventory, and order processing. It uses Java servlets and JSP pages to handle user requests, interact with the database, and generate dynamic web content. The MySQL database stores information such as user profiles, product details, and order history.
+Additionally, the application features an email notification system that sends customers a confirmation email upon order placement, including product names, prices, and other relevant details.
 
-Overall, this web application provides a seamless shopping experience for women looking to purchase clothing and personalized items online.
+The backend efficiently manages user accounts, product inventory, and order processing. It leverages Java Servlets and JSP to handle user requests, interact with the MySQL database, and dynamically generate web content.
+
+Overall, this web application delivers a seamless shopping experience for women looking to buy clothing and customize their purchases online.
+
 
 ## Getting Started
 
 To get started with this project, you will need to have the following installed on your system:
 - Java JDK
-- Eclipse 
+- Eclipse (or any other application of your choice)
 - Apache Tomcat
 - SQLyog
+- create an SMTP server for Gmail
+Once installed, you can clone the repository and run the application on your local machine.
 
-Once you have these installed, you can clone the repository and run the application on your local machine.
 
 ## Prerequisites
 
-Before running the application, you will need to create a MySQL database and configure the connection details in the application.properties file. You can find this file in the src/main/resources directory.
+Before running the application, you must create a MySQL database and configure the connection details in the application.properties file. You can find this file in the src/main/resources directory.
+
 
 ## Running the Application
 
 To run the application, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the project in your preferred IDE.
-3. Build the project using Maven.
-4. Deploy the WAR file to Apache Tomcat.
-5. Start Apache Tomcat.
-6. Open a web browser and navigate to http://localhost:<port>/ to access the application.
+3. Configure Apache Tomcat in your IDE and set the project as a web application.
+4. Start Apache Tomcat and deploy the project.
+5. Open a web browser and go to http://localhost:8080/ to access the application.
+
 
 ## Features
 
 The application offers the following features:
 - User-friendly interface
 - Easy navigation
-- Secure login and registration system
+- A secure login and registration system
 - CRUD operations on data
-- Responsive design
+- A responsive design
+
 
 ## Built With
 
@@ -48,10 +53,8 @@ The application offers the following features:
 - HTML, CSS, JavaScript, and jQuery for user interface
 - Apache Tomcat web server
 
-## Authors
-
-- [Deepthi G Acharya ](https://github.com/Rdeepthiacharya)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [License](https://github.com/Rdeepthiacharya/Cloud_Tailor/blob/main/LICENSE) file for details.
+
